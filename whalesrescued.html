@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <base href="whalesrescued.html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Whale's World has been created for the fact of saving the whales because of the poaching and the massive whale hunters">
+        <meta name="keywords" content="ballena, ballenas, whale, whales, wales, wale, balena, vallena, donar, donación, donate, donation, save, salvar, rescue, rescate, greenpeace, save whales, save whale, salvar ballenas,
+        mar, océano, sea, ocean, donate to whales, donar a ballenas, caza, furtivo, caza futiva, poaching, whale poaching, comprar, vender, compra, venta, sell, buy, money, dinero, peligro, danger">
+        <title>Whale's World - Whales rescued</title>
+        <link rel = "icon" href = "iconw.PNG">
+        <link rel ="stylesheet" href = "cssws.css">
+        <script>
+            function loadDoc() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        myFunction(this);
+                    }
+                };
+                xhttp.open("GET", "rescues.xml", true);
+                xhttp.send();
+            }
+            function myFunction(xml) {
+                var i;
+                var xmlDoc = xml.responseXML;
+                var table="<tr><th>sighting</th><th>location</th><th>intervention_day</th><th>success</th></tr>";
+                var x = xmlDoc.getElementsByTagName("rescue");
+                for (i = 0; i < x.length; i++) {
+                    table += "<tr><td>" +
+                    x[i].getElementsByTagName("sighning")[0].childNodes[0].nodeValue +
+                    "</td><td>" +
+                    x[i].getElementsByTagName("location")[0].childNodes[0].nodeValue +
+                    "</td></tr>" +
+                    x[i].getElementsByTagName("intervention_day")[0].childNodes[0].nodeValue +
+                    "</td></tr>" +
+                    x[i].getElementsByTagName("success")[0].childNodes[0].nodeValue +
+                    "</td></tr>";
+                }
+                document.getElementById("rescue").innerHTML = table;
+            }
+        </script>
+    </head>
+    <body>
+        <!-- Whales Rescued Title -->
+        <div class="TitleWS">
+            <h1 id="TitleWS">
+                <a href="whalesrescued.html">
+                    <span>WHALES RESCUED</span>
+                </a>
+            </h1>
+        </div>
+    
+        <!-- Images of whales -->
+        <div class="imw">
+            <img src="savedwhale.jpg" id="a"> 
+            <img src="savedwhale2.jpg" id="b">
+            <img src="savedwhale3.jpg" id="c">
+            <img src="savedwhale4.jpg" id="d">
+        </div>
+
+        <!-- Rescue history -->
+        <div class="rh">
+            <button onclick="loadDoc('rescues.xml')" id="rescue">Rescue history</button>
+        </div>
+
+        <!-- Back to the main page -->
+        <div class="back">
+            <a href="PaginaWebDaw1.html" id="back">
+                <span id="back"><b>Main Page.</b></span>
+            </a>
+        </div>
+    </body>
+</html>
