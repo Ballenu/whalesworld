@@ -1,0 +1,181 @@
+html{
+    background-image: url('majestuosidadballenil.jpg');
+    background-repeat: repeat;
+    background-attachment: inherit;
+    background-size: 1920px 970px;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+}
+
+head {
+    display: none;
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow:hidden;
+    position: relative;
+    box-sizing: inherit;
+    top: 0px;
+    margin: 0;
+    display: block;
+}
+
+div.Title{
+    content: "";
+    clear: both;
+    height: 120px;
+    user-select: none;
+}
+
+h1#Title {
+    font: small-caps 100%/200% serif;
+    font-variant: small-caps;
+    font-size: 380%;
+    font-style: bold;
+    text-shadow: black 10px 7px 6px;
+    text-align: center;
+}
+
+h1#Title a {
+    color:rgb(80, 234, 240);
+    text-decoration: none;
+}
+
+div.NavBar{
+    content: "";
+    clear: both;
+    position: relative;
+    font-style: bold;
+    font-size: 130%;
+}
+
+ul#NavBar {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: rgb(108, 142, 218);
+    opacity: 85%;
+  }
+
+li#NavBar {
+    float: left;
+}
+  
+li#NavBar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 140px;
+    text-decoration: none;
+}
+
+li#NavBar a:hover{
+    color: black;
+}
+
+div.AboutUs{
+    margin: 5px;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+div.AboutUs img#AboutUs {
+    width: 150%;
+    height: auto;
+    margin-left: -10px;
+    margin-top: 70px;
+}
+
+div.Why{
+    margin: 5px;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+div.Why img#Why {
+    width: 150%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 370px;
+    margin-bottom: 0px;
+}
+
+div.Donate{
+    margin: 5px;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+div.Donate img#Donate {
+    width: 150%;
+    height: auto;
+    margin-left: 370px;
+    margin-top: 100px;
+}
+
+div.fqna{
+    margin: 5px;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+div.fqna img#fqna {
+    width: 150%;
+    height: auto;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+div.Colaborate{
+    margin: 5px;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+div.Colaborate img#Colaborate {
+    width: 150%;
+    height: auto;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+img {
+    opacity: 80%;
+}
+
+.Pagination {
+    display: inline-block;
+    width: 850px;
+    height: 350px;
+    font-size: 130%;
+    margin-left: 750px;
+    margin-top: 450px;
+    user-select: none;
+}
+  
+.Pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+  
+.Pagination a.active {
+    background-color: #4CAF50;
+    color: rgb(187, 219, 41);
+}
+  
+.Pagination a:hover:not(.active) {background-color: #ddd;}
