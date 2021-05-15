@@ -1,0 +1,252 @@
+html{
+    background-color: black;
+    background-image: url('majestuosidadballenil.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px 970px;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+}
+
+head {
+    display: none;
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    box-sizing: inherit;
+    top: 0px;
+    margin: 0;
+    display: block;
+}
+
+div.Title{
+    content: "";
+    clear: both;
+    height: 120px;
+    user-select: none;
+}
+
+h1#Title {
+    font: small-caps 100%/200% serif;
+    font-variant: small-caps;
+    font-size: 380%;
+    font-style: bold;
+    text-shadow: black 10px 7px 6px;
+    text-align: center;
+}
+
+h1#Title a {
+    color:rgb(80, 234, 240);
+    text-decoration: none;
+}
+
+div.NavBar{
+    content: "";
+    clear: both;
+    position: relative;
+    font-style: bold;
+    font-size: 130%;
+}
+
+ul#NavBar {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: rgb(108, 142, 218);
+    opacity: 85%;
+  }
+
+li#NavBar {
+    float: left;
+}
+  
+li#NavBar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 121px;
+    text-decoration: none;
+}
+
+li#NavBar a:hover{
+    color: black;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: rgb(108, 142, 218);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(108, 142, 218);
+    min-width: auto;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(108, 142, 218);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div.AboutUs{
+    float: left;
+    width: 1%;
+    height: 1%;
+}
+
+div.AboutUs img#AboutUs {
+    width: 2200%;
+    height: auto;
+    margin-left: -130%;
+    margin-top: 10%;
+}
+
+div.Why{
+    float: left;
+    width: 1%;
+    height: 1%;
+}
+
+div.Why img#Why {
+    width: 2200%;
+    height: auto;
+    margin-left: 1950%;
+    margin-top: 1600%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.Donate{
+    float: left;
+    width: 1%;
+    height: 1%;
+}
+
+div.Donate img#Donate {
+    width: 2200%;
+    height: auto;
+    margin-left: 4200%;
+    margin-top: 500%;
+}
+
+div.fqna{
+    width: 2000%;
+    float: left;
+    width: 1%;
+    height: 1%;
+}
+
+div.fqna img#fqna {
+    width: 2200%;
+    height: auto;
+    margin-left: 5750%;
+    margin-top: 1400%;
+}
+
+div.Colaborate{
+    width: 2000%;
+    float: left;
+    width: 1%;
+    height: 1%;
+}
+
+div.Colaborate img#Colaborate {
+    width: 2200%;
+    height: auto;
+    margin-left: 7400%;
+    margin-top: 100%;
+}
+
+img {
+    opacity: 80%;
+}
+
+.Pagination {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    font-size: 130%;
+    margin-left: 23.5%;
+    margin-top: 37%;
+    user-select: none;
+}
+  
+.Pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+  
+.Pagination a.active {
+    background-color: #4CAF50;
+    color: rgb(187, 219, 41);
+}
+  
+.Pagination a:hover:not(.active) {background-color: #ddd;}
+
+div.PP {
+    margin-left: 3%;
+    margin-top: -2%;
+    width: 10%;
+}
+
+#F {
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+}
+
+#F:hover {
+    color:bisque;
+    text-decoration: underline;
+}
+
+div.Contact {
+    margin-left: 13%;
+    margin-top: -1.15%;
+    width: 10%;
+    height: 10%;
+}
+
+#copy {
+    color: white;
+    font-size: 110%;
+}
+
+.copy {
+    margin-left: 88%;
+    margin-top: -1.15%;
+    width: 10%;
+    height: 10%;
+}

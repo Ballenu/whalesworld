@@ -1,0 +1,95 @@
+html{
+    background-image: url('Fondo2.jpg');
+    background-repeat: repeat;
+    background-attachment: inherit;
+    background-size: 1920px 970px;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+}
+
+head {
+    display: none;
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    box-sizing: inherit;
+    top: 0px;
+    margin: 0;
+    display: block;
+    font-family: Georgia, serif;
+}
+
+div.TitleWSIC{
+    content: "";
+    clear: both;
+    height: 100px;
+    user-select: none;
+}
+
+h1#TitleWSIC {
+    font: small-caps 100%/200% serif;
+    font-variant: small-caps;
+    font-size: 350%;
+    font-style: bold;
+    text-shadow: black 10px 7px 6px;
+    text-align: center;
+}
+
+h1#TitleWSIC a {
+    color:rgb(80, 234, 240);
+    text-decoration: none;
+}
+
+p {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 150%;
+}
+
+div.SW {
+    margin-left: 32%;
+    float: left;
+    width: 700px;
+}
+
+div.SW img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.Pagination {
+    display: inline-block;
+    width: 900px;
+    height: 50px;
+    font-size: 130%;
+    margin-left: 27%;
+    margin-top: 100px;
+    user-select: none;
+}
+  
+.Pagination a {
+    color: white;
+    float: left;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+  
+.Pagination a.active {
+    background-color: #4CAF50;
+    color: rgb(187, 219, 41);
+}
+  
+.Pagination a:hover:not(.active) {background-color: #ddd;}

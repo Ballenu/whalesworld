@@ -1,0 +1,136 @@
+html{
+    background-image: url('Fondo2.jpg');
+    background-repeat: repeat;
+    background-attachment: inherit;
+    background-size: 1920px 970px;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+}
+
+head {
+    display: none;
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    box-sizing: inherit;
+    top: 0px;
+    margin: 0;
+    display: block;
+    font-family: Georgia, serif;
+}
+
+div.TitleD{
+    content: "";
+    clear: both;
+    height: 100px;
+    user-select: none;
+}
+
+h1#TitleD {
+    font: small-caps 100%/200% serif;
+    font-variant: small-caps;
+    font-size: 350%;
+    font-style: bold;
+    text-shadow: black 10px 7px 6px;
+    text-align: center;
+}
+
+h1#TitleD a {
+    color:rgb(80, 234, 240);
+    text-decoration: none;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=chechbox], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 16px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.don {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Pagination {
+    display: inline-block;
+    width: 900px;
+    height: 80px;
+    font-size: 130%;
+    margin-left: 30%;
+    margin-top: 140px;
+    user-select: none;
+}
+  
+.Pagination a {
+    color: white;
+    float: left;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+  
+.Pagination a.active {
+    background-color: #4CAF50;
+    color: rgb(187, 219, 41);
+}
+  
+.Pagination a:hover:not(.active) {background-color: #ddd;}

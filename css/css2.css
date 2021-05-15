@@ -1,0 +1,126 @@
+html{
+    background-image: url('Fondo2.jpg');
+    background-repeat: repeat;
+    background-attachment: inherit;
+    background-size: 1920px 970px;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+}
+
+head {
+    display: none;
+    box-sizing: inherit;
+}
+
+body {
+    width: 99%;
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    box-sizing: inherit;
+    top: 0px;
+    margin: 0;
+    display: block;
+    font-family: Georgia, serif;
+}
+
+div.TitleAU{
+    content: "";
+    clear: both;
+    height: 100px;
+    user-select: none;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px -16px;
+}
+
+h1#TitleAU {
+    font: small-caps 100%/200% serif;
+    font-variant: small-caps;
+    font-size: 350%;
+    font-style: bold;
+    text-shadow: black 10px 7px 6px;
+    text-align: center;
+}
+
+h1#TitleAU a {
+    color:rgb(80, 234, 240);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: left;
+    font-size: 160%;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #27DB5B ;
+    letter-spacing: 8px;
+    text-shadow: black 6px 4px 4px;
+}
+
+p {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+img#HWW {
+    width: 500px;
+    height: 200px;
+    margin-left: 39%;
+}
+
+img#PD {
+    margin-left: 39%;
+}
+
+img#U {
+    width: 500px;
+    height: 200px;
+    margin-left: 39%;
+}
+
+img#ED {
+    width: 500px;
+    height: 200px;
+    margin-left: 39%;
+}
+
+.Pagination {
+    display: inline-block;
+    width: 900px;
+    height: 100px;
+    font-size: 130%;
+    margin-left: 30%;
+    margin-top: 40px;
+    user-select: none;
+}
+  
+.Pagination a {
+    color: white;
+    float: left;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+  
+.Pagination a.active {
+    background-color: #4CAF50;
+    color: rgb(187, 219, 41);
+}
+  
+.Pagination a:hover:not(.active) {background-color: #ddd;}
